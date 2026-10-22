@@ -1,0 +1,96 @@
+# Write a program to count the total number of vowels (a, e, i, o, u) present in a given sentence.
+
+#v = "aeiou" # aa vowels ni string che
+#sentence ="learning python is fun" # aa sentece ma apde vowels ni counting karvaa mi che 
+
+#count = 0 #count variable ni value 0 atle set kari che kem ke apde check 0 etle peli position thi start karva maate
+
+#for ch in sentence: # aa loop ma apde sentence ma thi ek ek character ne check karva maate chhe
+    #if ch in v:           # aa if condition ma apde check karva maate chhe ke jo
+                           # character v ni string ma hoy to count variable ni value 1 thi vadhaavi devani che 
+       # count += 1             # if vale hase to counter true apse then upadte count 
+                               #ni valu 1 thi vadhi jse 
+
+#print(f"number of vowels in the given sentence: {count}")
+
+
+#Given a list of integers, find and print both the largest and the smallest number
+
+#nums = [45, 2, 89, 12, 7]
+
+#print("Largest number:", max(nums))  # aa line ma apde max function no use kari ne largest number print karva maate chhe
+#print("Smallest number:", min(nums))  # aa line ma apde min function no use kari ne smallest number print karva maate chhe
+
+
+#another solution for largest and smallest number without using max and min function
+
+#number = [45, 2, 89, 12, 7] #number ni list che 
+#large = number[0] # ahiya index 0  this strat kryo che 
+
+#small = number[0]#same
+
+#for num in number: # aa for loop number ni luist check karse
+
+    #if num>large: # condtion check are che ke if number ni value large
+                  #nii value kareta vadhre ghoi to large ni value update kro 
+   #     large = num
+  #  if num<small:   # same for small
+ #       small = num
+
+#print(f"Largest number: {large}")
+#print(f"Smallest number: {small}")
+
+
+
+
+# Write a script that takes a list containing duplicate items and returns a new list with only unique elements.
+
+#data = [1, 2, 5, 3, 4, 4, 4, 2] # number nu list 
+
+#data1 = list(set(data)) # aaa line ma list ne set ma convert kriye che list -> set -> list
+
+#print(f"list with unique items : {data1}") #ahiy dupicate item remov thai li list pint thse
+
+#data2 = list(dict.fromkeys(data1)) # aa je order ma data hse ej order ma updated list apse
+
+#print(f"list with unique items : {data2}") #updted list print same order hje statrint ma hato 
+
+
+
+#: Write a function to return True if the first and last number of a
+#  given list is the same. If the numbers are different, return False.
+
+
+#numbers_x = [10, 20, 30, 40, 10] # given input in que
+#numbers_y = [75, 65, 35, 75, 30]
+
+#def check_first_last(number): #ahiyaa funcition che jema bev
+                               # ccondtion index chek then 0 atle strating and -1 atle last 
+    #if number[0] == number[-1]:
+   #     return True
+  #  else:
+ #       return False
+
+#print(check_first_last(numbers_x))
+#print(check_first_last(numbers_y))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ 
